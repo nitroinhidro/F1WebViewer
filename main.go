@@ -17,7 +17,7 @@ import (
 
 var builtInSSL = false
 var selfSSL = false
-var listenAddr = "localhost:13331"
+var listenAddr = "0.0.0.0:13331"
 var login = ""
 var password = ""
 
