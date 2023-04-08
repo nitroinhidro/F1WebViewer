@@ -28,7 +28,7 @@ func init() {
 	flag.BoolVar(&selfSSL, "self-sign", false,
 		"self-signed ssl support. would display a warning on browsers",
 	)
-	flag.StringVar(&listenAddr, "listen", "*:13331", "which IP and port to listen?")
+	flag.StringVar(&listenAddr, "listen", "0.0.0.0:13331", "which IP and port to listen?")
 	flag.StringVar(&login, "login", "", "server-side login")
 	flag.StringVar(&password, "password", "", "server-side password")
 }
